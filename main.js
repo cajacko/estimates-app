@@ -17,11 +17,7 @@ function createWindow() {
 
   // and load the index.html of the app.
   mainWindow.loadURL(
-    url.format({
-      pathname: path.join(__dirname, 'index.html'),
-      protocol: 'file:',
-      slashes: true,
-    }),
+    'https://docs.google.com/a/charliejackson.com/spreadsheets/d/1wjPPI0qs0ugoIAqOOsIsXY1hNfZBVpVNNM_fW9DSs_I/edit?usp=drive_web',
   );
 
   // Open the DevTools.
